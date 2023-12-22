@@ -1,0 +1,8 @@
+def Union_ensemble(**aliments):
+    Legumes = {"carotte", "brocoli"}
+    fruits = {"pomme", "banane", "orange"}
+    aliments = Legumes | fruits
+    print(f"voici l'union des deux ensembles : {aliments}")
+
+
+Union_ensemble(aliments)
