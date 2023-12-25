@@ -11,12 +11,13 @@ def getMin (L) :
  
  
  
-n=int(input("veuillez entrer la taille de votre liste"))
+n=int(input("veuillez entrer la taille de votre liste: "))
 L=[0]*n
 for i in range(len(L)):
   L[i]=int(input())
 print(f"voici votre liste : {L}")
 getMin(L)
+
       
      
         
